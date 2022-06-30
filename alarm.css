@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+}
+.clock{
+    width: 532px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 403px;
+}
+
+img{
+    width: 532px;
+    height: 460px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 46%;
+    bottom: 10%;
+    font-size: xxx-large;
+}

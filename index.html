@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alarm</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="container">
+    <div id="clock"></div>
+    <form class="setAlarm" >
+    <div class="input">
+    <input  placeholder="HH" type="number" name="hr" class="hr" id="hr" min="00" max="23">
+       :
+    <input  placeholder="MM" type="number" name="min" class="min" id="min" min="00" max="59">
+    :
+    <input  placeholder="SS" type="number" name="sec" class="sec" id="sec" min="00" max="59">
+    </div>
+    
+    <div class="controls">
+        <button type="submit" class="button set-alarm" >set alarm</button>
+        <button type="reset" onclick="clearAlarm()" class="button clear-button" style="display: none;">Stop alarm</button>
+    </div>
+    </form>
+  
+  <hr>
+  <section class="list">
+    <h4>Alarms</h4>
+    <ul id="myList">
+
+    </ul>
+  </section>
+  </section>
+    <script src="index.js"></script>
+</body>
+</html>
